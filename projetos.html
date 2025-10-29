@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projetos — Vida Solidária</title>
+  <meta name="description" content="Catálogo de projetos sociais com indicadores de impacto.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <div class="container nav" role="navigation" aria-label="principal">
+      <a class="logo" href="index.html">
+        <img src="assets/img/logo.svg" alt="Logo Vida Solidária">
+        <span>Vida Solidária</span>
+      </a>
+      <nav class="nav" style="margin-left:auto">
+        <a href="index.html">Início</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="cadastro.html">Cadastro</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" class="container section">
+    <h1>Projetos</h1>
+    <p class="muted">Conheça iniciativas ativas e seus indicadores.</p>
+
+    <aside class="card" aria-label="Filtros de projetos">
+      <form class="form-grid" onsubmit="event.preventDefault()">
+        <div class="field">
+          <label for="area">Área</label>
+          <select id="area" name="area">
+            <option value="">Todas</option>
+            <option>Educação</option>
+            <option>Alimentação</option>
+            <option>Saúde</option>
+            <option>Inclusão Digital</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="local">Localidade</label>
+          <input id="local" name="local" placeholder="Cidade/Estado">
+        </div>
+        <div class="field">
+          <label for="busca">Busca</label>
+          <input id="busca" name="busca" placeholder="Palavra-chave">
+        </div>
+        <div class="field" style="align-self:end">
+          <button class="btn primary" type="submit">Filtrar</button>
+        </div>
+      </form>
+    </aside>
+
+    <div class="grid-3" style="margin-top:16px">
+      <article class="card">
+        <h3>Reforço Escolar</h3>
+        <p>Atendimento a 120 crianças com apoio pedagógico.</p>
+        <p class="muted">Meta: 200 alunos • Local: SP</p>
+      </article>
+      <article class="card">
+        <h3>Cesta do Bem</h3>
+        <p>Doação mensal de 400 cestas básicas a famílias.</p>
+        <p class="muted">Meta: 600 cestas • Local: Guarulhos</p>
+      </article>
+      <article class="card">
+        <h3>Mulheres em Tech</h3>
+        <p>Capacitação em programação para jovens de 16–24 anos.</p>
+        <p class="muted">Meta: 80 formadas • Local: Online</p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="grid-3">
+        <div>
+          <h3 style="margin-top:0">Vida Solidária</h3>
+          <p>ONG fictícia para fins acadêmicos. Transparência, impacto e engajamento.</p>
+        </div>
+        <div>
+          <h4>Contato</h4>
+          <ul>
+            <li>E-mail: contato@vidasolidaria.org</li>
+            <li>Telefone: (11) 4000-0000</li>
+            <li>Endereço: Rua Esperança, 123 - SP</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Redes</h4>
+          <p><a href="#">Instagram</a> • <a href="#">YouTube</a> • <a href="#">LinkedIn</a></p>
+          <small>© 2025 Vida Solidária</small>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
