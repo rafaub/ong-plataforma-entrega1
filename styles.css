@@ -124,6 +124,34 @@ legend{padding:0 6px;font-weight:700}
     text-align: center;
   }
 }
+/* Acessibilidade — Foco visível */
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+}
+/* ♿ Versão de alto contraste / modo escuro automático */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #0f172a;
+    color: #f8fafc;
+  }
+  .header, .footer {
+    background: #1e293b;
+    color: #e2e8f0;
+  }
+  .card, .btn {
+    background: #1e293b;
+    color: #f8fafc;
+    border-color: #334155;
+  }
+  a {
+    color: #38bdf8;
+  }
+}
+
+
+
+
 
 
 

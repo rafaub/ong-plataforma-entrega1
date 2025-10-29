@@ -131,15 +131,26 @@
       </div>
 
       <div style="display:flex; gap:12px">
-        <button class="btn primary" type="submit">Enviar cadastro</button>
-        <button class="btn" type="reset">Limpar</button>
-      </div>
+  <button 
+    class="btn primary" 
+    type="submit" 
+    aria-label="Enviar formulário de cadastro">
+    Enviar cadastro
+  </button>
 
-      <div id="feedback" class="success" hidden>
-        ✅ Formulário enviado! (simulação sem backend)
-      </div>
-    </form>
-  </main>
+  <button 
+    class="btn" 
+    type="reset" 
+    aria-label="Limpar todos os campos do formulário">
+    Limpar
+  </button>
+</div>
+
+
+      <div id="feedback" class="success" hidden aria-live="polite">
+  ✅ Formulário enviado! (simulação sem backend)
+</div>
+
 
   <footer class="footer" role="contentinfo">
     <div class="container">
