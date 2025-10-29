@@ -1,8 +1,8 @@
 :root{
-  --brand:#0050c3;
-  --brand-700:#002d8c;
-  --aqua:#00f0fa;
-  --bg:#ffffff;
+  --brand:#2400c3be;
+  --brand-700:#1a008cda;
+  --aqua:#fa9600;
+  --bg:#ffffffda;
   --text:#1b1b1b;
   --muted:#6b7280;
   --radius:12px;
@@ -72,4 +72,4 @@ legend{padding:0 6px;font-weight:700}
 @media (max-width:720px){.form-grid{grid-template-columns:1fr}}
 .help{font-size:.9rem;color:var(--muted)}
 .required::after{content:" *";color:#ef4444;font-weight:700}
-.success{background:#ecfeff;border:1px solid #22d3ee;padding:12px;border-radius:10px;margin-top:10px}
+.success{background:#ecfeff;border:1px solid #4d0d88;padding:12px;border-radius:10px;margin-top:10px}

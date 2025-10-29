@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Logo Vida Solidária">
+  <circle cx="32" cy="32" r="32" fill="#0050c3"/>
+  <path d="M16 34c8 10 24 10 32 0" stroke="#00f0fa" stroke-width="4" fill="none"/>
+  <circle cx="22" cy="24" r="4" fill="#fff"/>
+  <circle cx="42" cy="24" r="4" fill="#fff"/>
+</svg>
